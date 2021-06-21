@@ -1,6 +1,6 @@
 ## Web Components Boilerplate
 
-A basic setup to handle mupltiple web components with webpack. It has sample code on how to handle attributes, global styling etc.
+A basic setup to handle mupltiple native custom web components with webpack. It has sample code on how to handle attributes, global styling etc.
 
 ### Setup
 
@@ -12,7 +12,7 @@ A basic setup to handle mupltiple web components with webpack. It has sample cod
 
 ``` yarn start ```
 
-Open http://localhost:8081/ in your browser.
+Open http://localhost:8081/ in your browser and start building.
 
 ### Build for production use
 
