@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>"{{htmlWebpackPlugin.options.title}}"</title>
+</head>
+
+<body>
+    <app-root id="root" your-attribute="test"></order-components>
+
+    <script>
+        window.onload = function () {
+            const root = document.getElementById('root');
+            // Set property of your custom element                
+            root.data = { test: 'data' };
+        }
+    </script>
+</body>
+
+</html>
