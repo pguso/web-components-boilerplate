@@ -13,10 +13,15 @@ module.exports = {
     publicPath: '',
   },
   devServer: {
-    contentBase: projPath,
-    index: 'index.html',
     port: 8081,
-    writeToDisk: true,
+    static: {
+      directory: projPath,
+    },
+    devMiddleware: {
+      index: true,
+      writeToDisk: true,
+      publicPath: 'index.html',
+    },
   },
   mode: 'development',
   module: {
